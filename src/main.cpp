@@ -1,20 +1,16 @@
 #include <iostream>
+#include "FileManager.h"
 #include "UI.h"
 
 int main(){
+
+    std::string Path = "C:/Windows";
 
     GameManager gameMang;
     
     Game* testGame = new Game("Test","Steam");
 
-    gameMang.addGame(*testGame);
-
-    showGameList(gameMang);
-    showGameDetails(*testGame);
-
-    std::cout<<"Hello Sekai"<<"\n";
-
-    delete testGame;
+    listFilesInDirectory(Path);
 
     return 0;
 }
