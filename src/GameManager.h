@@ -14,7 +14,7 @@ class GameManager {
 public:
 
     GameManager();
-    ~GameManager();
+    ~GameManager() = default;
 
     std::vector<Game> getGames() const;
 

@@ -1,5 +1,9 @@
 #pragma once
 #include <iostream>
+#include <cctype>
+#include <string>
+#include <algorithm>
+#include <optional>
 #include "game.h"
 #include "GameManager.h"
 

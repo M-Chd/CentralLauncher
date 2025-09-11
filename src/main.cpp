@@ -10,6 +10,7 @@ int main(){
     gameMang.addGame(*testGame);
 
     showGameList(gameMang);
+    showGameDetails(*testGame);
 
     std::cout<<"Hello Sekai"<<"\n";
 
