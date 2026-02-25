@@ -4,22 +4,22 @@
     <ClCompile Include="C:\Users\mouad\OneDrive\Desktop\CentralLauncher\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\mouad\OneDrive\Desktop\CentralLauncher\src\Game.cpp">
+    <ClCompile Include="..\src\app\application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\mouad\OneDrive\Desktop\CentralLauncher\src\GameManager.cpp">
+    <ClCompile Include="..\src\domain\game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\mouad\OneDrive\Desktop\CentralLauncher\src\FileManager.cpp">
+    <ClCompile Include="..\src\services\gameLauncherService.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\mouad\OneDrive\Desktop\CentralLauncher\src\Launcher.cpp">
+    <ClCompile Include="..\src\domain\gameLibrary.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\mouad\OneDrive\Desktop\CentralLauncher\src\UI.cpp">
+    <ClCompile Include="..\src\ui\gameListWidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\mouad\OneDrive\Desktop\CentralLauncher\src\Utils.cpp">
+    <ClCompile Include="..\src\ui\mainWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
