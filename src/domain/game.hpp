@@ -1,23 +1,29 @@
 #pragma once
-#include "category.hpp"
 #include <iostream>
+
+using std::string;
 
 class Game {
 public:
-	Game() {};
+	Game(string _id, string _name, string _path, string _cat) : 
+		id(_id), name(_name),path(_path),cat(_cat)
+	{
+		if (!_id || !_name || !_path || !_cat)
+			return;
+	};
+
 	~Game() {};
 
-	std::string getName() { return name; }
-	std::string getGamePath() { return path; }
-	Category getCategory() const { return cat; }
+	string getId() const { return id; }
+	string getName() const { return name; }
+	string getGamePath() const { return path; }
+	string getCategory() const { return cat; }
 
 	void launch();
 
-
 private:
-
-	std::string name;
-	std::string path;
-	Category cat;
-	
+	string id;
+	string name;
+	string path;
+	string cat;
 };

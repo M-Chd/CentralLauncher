@@ -19,9 +19,11 @@ public:
 		return false;
 	}
 
+	Game& findGame(std::string gameName);
+
 	void deleteGame(std::string gameName);
 
-	std::vector<Game>& getGames() { return games; }
+	std::vector<Game>& getGames() const { return games; }
 
 private:
 

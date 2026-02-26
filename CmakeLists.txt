@@ -26,16 +26,17 @@ target_sources(${PROJECT_NAME}
         src/domain/gameLibrary.cpp
         src/services/gameLauncher.cpp
         src/ui/gameListWidget.cpp
+        src/services/jsonLoader.cpp
 )
 
 target_include_directories(
-    src/app/category.hpp
     src/app/application.hpp
     src/domain/game.hpp
     src/domain/gameLibrary.hpp
     src/services/gameLauncher.hpp
     src/ui/mainwindow.hpp
     src/ui/gameListWidget.hpp
+    src/services/jsonLoader.hpp
 )
 
 if(APPLE)

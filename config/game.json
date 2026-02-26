@@ -1,0 +1,18 @@
+{
+  "games": [
+    {
+      "id": "minecraft_j",
+      "name": "Minecraft Java Edition",
+      "executable": "...",
+      "icon": "...",
+      "category": "sandbox"
+    },
+    {
+      "id": "minecraft_b",
+      "name": "Minecraft",
+      "executable": "...",
+      "icon": "...",
+      "category": "sandbox"
+    }
+  ]
+}
