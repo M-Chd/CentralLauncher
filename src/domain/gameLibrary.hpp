@@ -11,12 +11,9 @@ namespace Domain
 		GameLibrary() {};
 		~GameLibrary() {};
 
-		void load(); // load the game with the json file
+		void load(std::vector<Game>& v_games); // load the game with the json file
 
-		void addGames(Game &g)
-		{
-			games.push_back(g);
-		}
+		void addGames(Game &g) { games.push_back(g); }
 
 		void deleteGame(std::string gameId);
 
