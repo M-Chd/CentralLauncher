@@ -3,29 +3,26 @@
 #include <vector>
 #include "game.hpp"
 
-class GameLibrary {
-public:
-	GameLibrary() {};
-	~GameLibrary() {};
-
-	void load();
-
-	bool addGames(Game& g)
+namespace Domain
+{
+	class GameLibrary
 	{
-		if (g != nullptr) {
+	public:
+		GameLibrary() {};
+		~GameLibrary() {};
+
+		void load(); // load the game with the json file
+
+		void addGames(Game &g)
+		{
 			games.push_back(g);
-			return true;
 		}
-		return false;
-	}
 
-	Game& findGame(std::string gameName);
+		void deleteGame(std::string gameId);
 
-	void deleteGame(std::string gameName);
+		std::vector<Game> &getGames() { return games; }
 
-	std::vector<Game>& getGames() const { return games; }
-
-private:
-
-	std::vector<Game> games;
-};
+	private:
+		std::vector<Game> games;
+	};
+}

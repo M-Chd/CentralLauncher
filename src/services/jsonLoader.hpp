@@ -3,13 +3,19 @@
 #include "include/rapidjson/document.h"
 #include "include/rapidjson/filereadstream.h"
 #include <iostream>
+#include <fstream>
 #include <vector>
 
-class JsonLoader {
+namespace Services
+{
 
-public:
-	JsonLoader() {};
-	~JsonLoader() {};
+	class JsonLoader
+	{
 
-	std::vector<Game> getGamesFromJson(const std::string& filePath);
-};
+	public:
+		JsonLoader() {};
+		~JsonLoader() {};
+
+		std::vector<Domain::Game> loadGamesFromJson(const std::string &filePath);
+	};
+}

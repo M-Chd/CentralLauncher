@@ -1,1 +1,3 @@
-#include "headers/gameLibrary.h"
+#include "gameLibrary.hpp"
+
+using namespace Domain;

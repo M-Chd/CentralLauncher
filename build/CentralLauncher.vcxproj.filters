@@ -5,22 +5,25 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\src\app\application.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\app</Filter>
     </ClCompile>
     <ClCompile Include="..\src\domain\game.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\services\gameLauncherService.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\domain</Filter>
     </ClCompile>
     <ClCompile Include="..\src\domain\gameLibrary.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\ui\gameListWidget.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\domain</Filter>
     </ClCompile>
     <ClCompile Include="..\src\ui\mainWindow.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\services\gameLauncherService.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\gameListWidget.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\services\jsonLoader.cpp">
+      <Filter>Source Files\services</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -29,6 +32,18 @@
   <ItemGroup>
     <Filter Include="Source Files">
       <UniqueIdentifier>{473CBC51-5B1E-3FAE-9832-E5E46BFD81D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\app">
+      <UniqueIdentifier>{9e7a1c10-c58a-4494-94a3-def2c05c33a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\domain">
+      <UniqueIdentifier>{a28c23b6-915c-4a56-b1f8-1f4f5cdfff64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{5fe7804f-fc4f-40af-9ee7-fb5e9d17bd32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\services">
+      <UniqueIdentifier>{0a7f63c3-1f38-4786-a9da-fea34ba7955d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

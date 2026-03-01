@@ -348,6 +348,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="..\src\domain\game.cpp" />
     <ClCompile Include="..\src\domain\gameLibrary.cpp" />
     <ClCompile Include="..\src\services\gameLauncherService.cpp" />
+    <ClCompile Include="..\src\services\jsonLoader.cpp" />
     <ClCompile Include="..\src\ui\gameListWidget.cpp" />
     <ClCompile Include="..\src\ui\mainWindow.cpp" />
     <ClCompile Include="C:\Users\mouad\OneDrive\Desktop\CentralLauncher\src\main.cpp" />

@@ -1,1 +1,3 @@
-#include "headers/gameLauncherService.h"
+#include "gameLauncherService.hpp"
+
+using namespace Services;
