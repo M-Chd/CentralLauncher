@@ -15,7 +15,7 @@ namespace Domain
 
 		void addGames(Game &g) { games.push_back(g); }
 
-		void deleteGame(std::string gameId);
+		void deleteGame(const std::string& gameId);
 
 		std::vector<Game> &getGames() { return games; }
 
