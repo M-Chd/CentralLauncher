@@ -3,11 +3,12 @@
 using namespace rapidjson;
 using namespace Domain;
 
-std::vector<Game> Services::JsonLoader::loadGamesFromJson(const string& filepath)
+std::vector<Game> Services::JsonLoader::loadGamesFromJson(const string &filepath)
 {
 	std::ifstream jsonFile(filepath);
 
-	if (!jsonFile) {
+	if (!jsonFile)
+	{
 		std::cerr << "Json file was not found" << "\n";
 		throw std::runtime_error("Json file not found");
 	}
@@ -17,32 +18,38 @@ std::vector<Game> Services::JsonLoader::loadGamesFromJson(const string& filepath
 	Document d;
 	d.Parse(json.c_str());
 
-	if (d.HasParseError()){
+	if (d.HasParseError())
+	{
 		std::cerr << "Error during parsing..." << "\n";
 		throw std::runtime_error("Error during parsing");
 	}
 
 	std::vector<Game> games;
 
-	if (d.HasMember("games") && d["games"].IsArray()) {
+	if (d.HasMember("games") && d["games"].IsArray())
+	{
 
-		const auto& gameArray = d["games"];
+		const auto &gameArray = d["games"];
 
-		for (SizeType i = 0; i < gameArray.Size(); i++) {
+		for (SizeType i = 0; i < gameArray.Size(); i++)
+		{
 
-			if (!gameArray[i].IsObject())
-				throw std::runtime_error("No object in JsonFile");
+			if (gameArray[i].IsObject())
+			{
+				const auto &gameJson = gameArray[i];
 
-			const auto& gameJson = gameArray[i];
+				if (gameJson.HasMember("id") && gameJson.HasMember("name") &&
+				 	gameJson.HasMember("executable") && gameJson.HasMember("cat"))
+				{
 
-			if (gameJson.HasMember("id") && gameJson.HasMember("name")
-				&& gameJson.HasMember("executable") && gameJson.HasMember("cat")) {
+					Game game = Game(gameJson["id"].GetString(), gameJson["name"].GetString(),
+									 gameJson["executable"].GetString(), gameJson["cat"].GetString());
 
-				Game game = Game(gameJson["id"].GetString(), gameJson["name"].GetString(),
-				gameJson["executable"].GetString(), gameJson["cat"].GetString());
-
-				games.push_back(game);
-			}
+					games.push_back(game);
+				} else
+					std::cerr << "No games found..." << "\n";
+			} else
+			std::cerr << "No Object found in the JsonFile..." << "\n";
 		}
 	}
 	return games;
