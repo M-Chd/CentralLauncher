@@ -12,17 +12,24 @@ void GameLibrary::load(std::vector<Game>& v_games)
     }
 }
 
-void GameLibrary::deleteGame(const std::string& gameId)
+bool GameLibrary::removeGame(const std::string& gameId)
 {
-    if (!games.empty())
+    auto it = findById(gameId);
+    if (it != games.end()){
+        games.erase(it);
+        return true;
+    } else
+        return false;
+}
+
+std::vector<Game>::iterator GameLibrary::findById(const std::string& id)
+{
+    for (auto it = games.begin(); it != games.end(); it++)
     {
-        for (size_t i = 0; i < games.size() ; i++ )
+        if (it->getId() == id)
         {
-            if (games[i].getId() == gameId)
-            {
-                games.erase(games.begin() + i);
-            }
+            return it;
         }
     }
-    std::cerr << "No games correspond with the given Id... " << "\n";
+    return games.end();
 }

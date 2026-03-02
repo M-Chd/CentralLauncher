@@ -13,13 +13,15 @@ namespace Domain
 
 		void load(std::vector<Game>& v_games); // load the game with the json file
 
-		void addGames(Game &g) { games.push_back(g); }
+		void addGame(Game &g) { games.push_back(g); }
 
-		void deleteGame(const std::string& gameId);
+		bool removeGame(const std::string& gameId);
 
 		std::vector<Game> &getGames() { return games; }
 
 	private:
 		std::vector<Game> games;
+
+		std::vector<Game>::iterator findById(const std::string& id);
 	};
 }
