@@ -1,11 +1,16 @@
-#include "jsonLoader.hpp"
+#include "jsonGameRepository.hpp"
 
 using namespace rapidjson;
 using namespace Domain;
 
-std::vector<Game> Services::JsonLoader::loadGamesFromJson(const string &filepath)
+Services::JsonGameRepository::JsonGameRepository(const std::string& filepath)
 {
-	std::ifstream jsonFile(filepath);
+	this->m_filepath = filepath;
+}
+
+std::vector<Game> Services::JsonGameRepository::load()
+{
+	std::ifstream jsonFile(m_filepath);
 
 	if (!jsonFile)
 	{
@@ -53,4 +58,26 @@ std::vector<Game> Services::JsonLoader::loadGamesFromJson(const string &filepath
 		}
 	}
 	return games;
+}
+
+void Services::JsonGameRepository::save(const GameLibrary& g)
+{
+	std::ifstream jsonFile(m_filepath);
+
+	if (!jsonFile)
+	{
+		std::cerr << "Json file was not found" << "\n";
+		throw std::runtime_error("Json file not found");
+	}
+
+	std::string json{std::istreambuf_iterator<char>(jsonFile), std::istreambuf_iterator<char>()};
+
+	Document d;
+	d.Parse(json.c_str());
+
+	if (d.HasParseError())
+	{
+		std::cerr << "Error during parsing..." << "\n";
+		throw std::runtime_error("Error during parsing");
+	}
 }

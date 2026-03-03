@@ -11,17 +11,13 @@ namespace Domain
 		Game(string _id, string _name, string _path, string _cat) : id(_id), name(_name), path(_path), cat(_cat)
 		{
 			if (_id == "" || _name == "" || _path == "" || _cat == "")
-				return;
+				throw std::invalid_argument("Game cannot be created...");
 		};
-
-		~Game() {};
 
 		string getId() const { return id; }
 		string getName() const { return name; }
 		string getGamePath() const { return path; }
 		string getCategory() const { return cat; }
-
-		void launch();
 
 	private:
 		string id;

@@ -2,27 +2,35 @@
 
 using namespace Domain;
 
-/**
- * Load from JsonLoader
- */
-void GameLibrary::load(std::vector<Game>& v_games)
+void GameLibrary::loadGames(const std::vector<Game>& l_games)
 {
-    for (auto& g : v_games){
-        games.push_back(g);
+    if (!l_games.empty())
+    {
+        for (auto &g : l_games)
+        {
+            games.push_back(g);
+        }
+    }
+    else
+    {
+        /*Debug*/
+        std::cout << "No games are loaded..." << "\n";
     }
 }
 
-bool GameLibrary::removeGame(const std::string& gameId)
+bool GameLibrary::removeGame(const std::string &gameId)
 {
     auto it = findById(gameId);
-    if (it != games.end()){
+    if (it != games.end())
+    {
         games.erase(it);
         return true;
-    } else
+    }
+    else
         return false;
 }
 
-std::vector<Game>::iterator GameLibrary::findById(const std::string& id)
+std::vector<Game>::iterator GameLibrary::findById(const std::string &id)
 {
     for (auto it = games.begin(); it != games.end(); it++)
     {
