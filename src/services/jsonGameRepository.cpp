@@ -3,7 +3,7 @@
 using namespace rapidjson;
 using namespace Domain;
 
-Services::JsonGameRepository::JsonGameRepository(const std::string& filepath)
+Services::JsonGameRepository::JsonGameRepository(const std::string &filepath)
 {
 	this->m_filepath = filepath;
 }
@@ -44,40 +44,60 @@ std::vector<Game> Services::JsonGameRepository::load()
 				const auto &gameJson = gameArray[i];
 
 				if (gameJson.HasMember("id") && gameJson.HasMember("name") &&
-				 	gameJson.HasMember("executable") && gameJson.HasMember("cat"))
+					gameJson.HasMember("executable") && gameJson.HasMember("cat"))
 				{
 
 					Game game = Game(gameJson["id"].GetString(), gameJson["name"].GetString(),
 									 gameJson["executable"].GetString(), gameJson["cat"].GetString());
 
 					games.push_back(game);
-				} else
+				}
+				else
 					std::cerr << "No games found..." << "\n";
-			} else
-			std::cerr << "No Object found in the JsonFile..." << "\n";
+			}
+			else
+				std::cerr << "No Object found in the JsonFile..." << "\n";
 		}
 	}
 	return games;
 }
 
-void Services::JsonGameRepository::save(const GameLibrary& g)
+void Services::JsonGameRepository::save(const GameLibrary &library)
 {
-	std::ifstream jsonFile(m_filepath);
-
-	if (!jsonFile)
-	{
-		std::cerr << "Json file was not found" << "\n";
-		throw std::runtime_error("Json file not found");
-	}
-
-	std::string json{std::istreambuf_iterator<char>(jsonFile), std::istreambuf_iterator<char>()};
-
 	Document d;
-	d.Parse(json.c_str());
+	d.SetObject();
+	auto &allocator = d.GetAllocator();
 
-	if (d.HasParseError())
+	Value gamesArray(kArrayType);
+
+	for (const auto &game : library.getGames())
 	{
-		std::cerr << "Error during parsing..." << "\n";
-		throw std::runtime_error("Error during parsing");
+		Value gameObject(kObjectType);
+
+		gameObject.AddMember("id",
+							 Value(game.getId().c_str(), allocator),
+							 allocator);
+
+		gameObject.AddMember("name",
+							 Value(game.getName().c_str(), allocator),
+							 allocator);
+
+		gameObject.AddMember("executable",
+							 Value(game.getGamePath().c_str(), allocator),
+							 allocator);
+
+		gamesArray.PushBack(gameObject, allocator);
 	}
+
+	d.AddMember("games", gamesArray, allocator);
+
+	StringBuffer buffer;
+	Writer<StringBuffer> writer(buffer);
+	d.Accept(writer);
+
+	std::ofstream out(m_filepath);
+	if (!out)
+		throw std::runtime_error("Failed to open file for writing");
+
+	out << buffer.GetString();
 }

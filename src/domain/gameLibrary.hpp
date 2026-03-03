@@ -15,7 +15,7 @@ namespace Domain
 
 		bool removeGame(const std::string &gameId);
 
-		std::vector<Game> &getGames() { return games; }
+		const std::vector<Game> &getGames() const { return games; }
 
 	private:
 		std::vector<Game> games;
