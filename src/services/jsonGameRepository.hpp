@@ -5,6 +5,7 @@
 #include "src/domain/gameLibrary.hpp"
 #include "include/rapidjson/stringbuffer.h"
 #include "include/rapidjson/writer.h"
+#include "src/services/IGamesRepository.hpp"
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -12,15 +13,15 @@
 namespace Services
 {
 
-	class JsonGameRepository
+	class JsonGameRepository : public IGameRepository
 	{
 
 	public:
 		
-		explicit JsonGameRepository(const std::string& filepath);
+		JsonGameRepository(const std::string& filepath);
 
-		void save(const GameLibrary&);
-		std::vector<Domain::Game> load();
+		void save(const GameLibrary&) override;
+		std::vector<Domain::Game> load() override;
 
 	private:
 		std::string m_filepath;
