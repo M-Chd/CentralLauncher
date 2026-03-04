@@ -1,53 +1,46 @@
 cmake_minimum_required(VERSION 3.16)
-
-project(GameLauncher VERSION 1.0 LANGUAGES CXX)
-
-set(CMAKE_AUTOUIC ON) # Pour les fichiers .ui
-set(CMAKE_AUTOMOC ON) # Pour les macros Q_OBJECT (signaux/slots)
-set(CMAKE_AUTORCC ON) # Pour les fichiers de ressources .qrc
+project(CentralLauncher VERSION 1.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Remplace par ton chemin réel (ex: C:/Qt/6.5.0/msvc2022_64)
-set(CMAKE_PREFIX_PATH "C:\Qt\installerResources\qt.tools.vcredist_msvc2022_x64")
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
 
-find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
-find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
+set(CMAKE_PREFIX_PATH "C:/Qt/6.5.0/msvc2022_64")
 
-add_executable(${PROJECT_NAME})
-target_sources(${PROJECT_NAME}
-    PRIVATE
-        main.cpp
-        src/ui/mainwindow.cpp
-        src/ui/mainwindow.ui
-        src/app/application.cpp
-        src/domain/game.cpp
-        src/domain/gameLibrary.cpp
-        src/services/gameLauncher.cpp
-        src/ui/gameListWidget.cpp
-        src/services/jsonLoader.cpp
+#find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
+#find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
+
+set(SOURCES
+    src/main.cpp
+    src/app/application.cpp
+    src/domain/game.cpp
+    src/domain/gameLibrary.cpp
+    src/services/gameLauncherService.cpp
+    src/services/jsonGameRepository.cpp
+    src/ui/gameListWidget.cpp
+    src/ui/mainwindow.cpp
 )
 
-target_include_directories(
-    src/app/application.hpp
-    src/domain/game.hpp
-    src/domain/gameLibrary.hpp
-    src/services/gameLauncher.hpp
-    src/ui/mainwindow.hpp
-    src/ui/gameListWidget.hpp
-    src/services/jsonLoader.hpp
-)
-
-if(APPLE)
-    add_executable(${PROJECT_NAME} MACOSX_BUNDLE ${PROJECT_SOURCES})
-elseif(WIN32)
-    add_executable(${PROJECT_NAME} WIN32 ${PROJECT_SOURCES})
+if(WIN32)
+    add_executable(${PROJECT_NAME} WIN32 ${SOURCES})
+elseif(APPLE)
+    add_executable(${PROJECT_NAME} MACOSX_BUNDLE ${SOURCES})
 else()
-    add_executable(${PROJECT_NAME} ${PROJECT_SOURCES})
+    add_executable(${PROJECT_NAME} ${SOURCES})
 endif()
 
-target_link_libraries(${PROJECT_NAME} PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_include_directories(${PROJECT_NAME} PRIVATE
+    src/app
+    src/domain
+    src/services
+    src/ui
+    src/util
+)
+
+#target_link_libraries(${PROJECT_NAME} PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 
 set_target_properties(${PROJECT_NAME} PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin"

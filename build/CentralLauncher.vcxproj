@@ -93,7 +93,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
-      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard>stdcpp20</LanguageStandard>
       <MinimalRebuild>
       </MinimalRebuild>
       <Optimization>Disabled</Optimization>
@@ -348,12 +348,15 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="..\src\domain\game.cpp" />
     <ClCompile Include="..\src\domain\gameLibrary.cpp" />
     <ClCompile Include="..\src\services\gameLauncherService.cpp" />
+    <ClCompile Include="..\src\services\jsonGameRepository.cpp" />
     <ClCompile Include="..\src\services\jsonLoader.cpp" />
     <ClCompile Include="..\src\ui\gameListWidget.cpp" />
     <ClCompile Include="..\src\ui\mainWindow.cpp" />
     <ClCompile Include="C:\Users\mouad\OneDrive\Desktop\CentralLauncher\src\main.cpp" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ClInclude Include="..\src\services\IGamesRepository.hpp" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\mouad\OneDrive\Desktop\CentralLauncher\build\ZERO_CHECK.vcxproj">
       <Project>{7326F955-47F4-3953-B5C6-49035AFCC8A9}</Project>

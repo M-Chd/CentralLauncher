@@ -2,6 +2,7 @@
 #include <iostream>
 #include <vector>
 #include "game.hpp"
+#include "../util/debug.h"
 
 namespace Domain
 {

@@ -675,7 +675,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "CentralLauncher"
+			"value" : "GameLauncher"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1114,6 +1114,42 @@
 			"value" : "C:/Users/mouad/OneDrive/Desktop/CentralLauncher"
 		},
 		{
+			"name" : "GameLauncher_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/mouad/OneDrive/Desktop/CentralLauncher/build"
+		},
+		{
+			"name" : "GameLauncher_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "GameLauncher_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/mouad/OneDrive/Desktop/CentralLauncher"
+		},
+		{
 			"name" : "Project_BINARY_DIR",
 			"properties" : 
 			[
@@ -1148,6 +1184,18 @@
 			],
 			"type" : "STATIC",
 			"value" : "C:/Users/mouad/OneDrive/Desktop/CentralLauncher"
+		},
+		{
+			"name" : "QT_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for QT."
+				}
+			],
+			"type" : "PATH",
+			"value" : "QT_DIR-NOTFOUND"
 		}
 	],
 	"kind" : "cache",

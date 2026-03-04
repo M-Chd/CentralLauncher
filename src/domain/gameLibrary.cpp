@@ -15,6 +15,7 @@ void GameLibrary::loadGames(const std::vector<Game>& l_games)
     {
         /*Debug*/
         std::cout << "No games are loaded..." << "\n";
+        LOG("No games to load");
     }
 }
 

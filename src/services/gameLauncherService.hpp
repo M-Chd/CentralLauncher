@@ -1,5 +1,5 @@
 #include <iostream>
-#include "src/domain/game.hpp"
+#include "../domain/game.hpp"
 
 namespace Services
 {

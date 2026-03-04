@@ -25,6 +25,9 @@
     <ClCompile Include="..\src\services\jsonLoader.cpp">
       <Filter>Source Files\services</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\services\jsonGameRepository.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\mouad\OneDrive\Desktop\CentralLauncher\CmakeLists.txt" />
@@ -45,5 +48,10 @@
     <Filter Include="Source Files\services">
       <UniqueIdentifier>{0a7f63c3-1f38-4786-a9da-fea34ba7955d}</UniqueIdentifier>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\services\IGamesRepository.hpp">
+      <Filter>Source Files\services</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

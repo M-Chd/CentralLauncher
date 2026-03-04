@@ -3,11 +3,6 @@
 using namespace rapidjson;
 using namespace Domain;
 
-Services::JsonGameRepository::JsonGameRepository(const std::string &filepath)
-{
-	this->m_filepath = filepath;
-}
-
 std::vector<Game> Services::JsonGameRepository::load()
 {
 	std::ifstream jsonFile(m_filepath);
@@ -53,10 +48,16 @@ std::vector<Game> Services::JsonGameRepository::load()
 					games.push_back(game);
 				}
 				else
+				{
 					std::cerr << "No games found..." << "\n";
+					LOG(gameJson);
+				}
 			}
 			else
+			{
 				std::cerr << "No Object found in the JsonFile..." << "\n";
+				LOG(gameArray);
+			}
 		}
 	}
 	return games;

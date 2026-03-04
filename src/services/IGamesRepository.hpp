@@ -1,6 +1,6 @@
 #pragma once
-#include "src/domain/game.hpp"
-#include "src/domain/gameLibrary.hpp"
+#include "../domain/game.hpp"
+#include "../domain/gameLibrary.hpp"
 #include <iostream>
 #include <vector>
 

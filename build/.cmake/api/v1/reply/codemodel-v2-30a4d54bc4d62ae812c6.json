@@ -29,7 +29,7 @@
 					[
 						0
 					],
-					"name" : "CentralLauncher",
+					"name" : "GameLauncher",
 					"targetIndexes" : 
 					[
 						0,
@@ -43,15 +43,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Debug-92a4a8d315e6300c2e94.json",
+					"jsonFile" : "target-ALL_BUILD-Debug-fb88f33dc9605ce94706.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "CentralLauncher::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CentralLauncher-Debug-bc74e4f2f632af4e4dce.json",
-					"name" : "CentralLauncher",
+					"id" : "GameLauncher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GameLauncher-Debug-f7e8fdca31370e00ee9b.json",
+					"name" : "GameLauncher",
 					"projectIndex" : 0
 				},
 				{
@@ -91,7 +91,7 @@
 					[
 						0
 					],
-					"name" : "CentralLauncher",
+					"name" : "GameLauncher",
 					"targetIndexes" : 
 					[
 						0,
@@ -105,15 +105,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Release-92a4a8d315e6300c2e94.json",
+					"jsonFile" : "target-ALL_BUILD-Release-fb88f33dc9605ce94706.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "CentralLauncher::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CentralLauncher-Release-7a128ec0cd41a45d65c1.json",
-					"name" : "CentralLauncher",
+					"id" : "GameLauncher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GameLauncher-Release-5e4c1e6cb79be82438cf.json",
+					"name" : "GameLauncher",
 					"projectIndex" : 0
 				},
 				{
@@ -153,7 +153,7 @@
 					[
 						0
 					],
-					"name" : "CentralLauncher",
+					"name" : "GameLauncher",
 					"targetIndexes" : 
 					[
 						0,
@@ -167,15 +167,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-MinSizeRel-92a4a8d315e6300c2e94.json",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-fb88f33dc9605ce94706.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "CentralLauncher::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CentralLauncher-MinSizeRel-f2515a6a2842dd2e788b.json",
-					"name" : "CentralLauncher",
+					"id" : "GameLauncher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GameLauncher-MinSizeRel-5178445ab1ccc1840d8a.json",
+					"name" : "GameLauncher",
 					"projectIndex" : 0
 				},
 				{
@@ -215,7 +215,7 @@
 					[
 						0
 					],
-					"name" : "CentralLauncher",
+					"name" : "GameLauncher",
 					"targetIndexes" : 
 					[
 						0,
@@ -229,15 +229,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-92a4a8d315e6300c2e94.json",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-fb88f33dc9605ce94706.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "CentralLauncher::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CentralLauncher-RelWithDebInfo-37e5ce8abe6f9e3a6c63.json",
-					"name" : "CentralLauncher",
+					"id" : "GameLauncher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GameLauncher-RelWithDebInfo-e149ac67bfe3b001ccfc.json",
+					"name" : "GameLauncher",
 					"projectIndex" : 0
 				},
 				{

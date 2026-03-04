@@ -1,9 +1,10 @@
 #pragma once
 #include <iostream>
-#include "src/services/gameLauncherService.hpp"
-#include "src/domain/gameLibrary.hpp"
-#include "src/services/jsonGameRepository.hpp"
-#include "src/services/IGamesRepository.hpp"
+#include "../services/gameLauncherService.hpp"
+#include "../domain/gameLibrary.hpp"
+#include "../services/jsonGameRepository.hpp"
+#include "../services/IGamesRepository.hpp"
+#include "util/debug.h"
 
 
 namespace App
