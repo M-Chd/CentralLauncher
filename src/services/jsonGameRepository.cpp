@@ -9,7 +9,7 @@ std::vector<Game> Services::JsonGameRepository::load()
 
 	if (!jsonFile)
 	{
-		std::cerr << "Json file was not found" << "\n";
+		ERROR("Json file not found");
 		throw std::runtime_error("Json file not found");
 	}
 
@@ -20,7 +20,7 @@ std::vector<Game> Services::JsonGameRepository::load()
 
 	if (d.HasParseError())
 	{
-		std::cerr << "Error during parsing..." << "\n";
+		ERROR("error during parsing");
 		throw std::runtime_error("Error during parsing");
 	}
 
@@ -49,17 +49,23 @@ std::vector<Game> Services::JsonGameRepository::load()
 				}
 				else
 				{
-					std::cerr << "No games found..." << "\n";
+					ERROR("No games found");
 					LOG(gameJson);
 				}
 			}
 			else
 			{
-				std::cerr << "No Object found in the JsonFile..." << "\n";
+				ERROR("No Object found in the JsonFile...");
 				LOG(gameArray);
 			}
 		}
 	}
+	#ifdef DEBUG
+		for (const auto& g : games)
+		{
+			print(g.getName());
+		}
+	#endif
 	return games;
 }
 
