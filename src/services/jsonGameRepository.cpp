@@ -39,13 +39,13 @@ std::vector<Game> Services::JsonGameRepository::loadRepo()
 				const auto &gameJson = gameArray[i];
 
 				if (gameJson.HasMember("id") && gameJson.HasMember("name") &&
-					gameJson.HasMember("executable") && gameJson.HasMember("cat"))
+					gameJson.HasMember("executable") && gameJson.HasMember("category"))
 				{
 
 					Game game = Game(gameJson["id"].GetString(), gameJson["name"].GetString(),
-									 gameJson["executable"].GetString(), gameJson["cat"].GetString());
+									 gameJson["executable"].GetString(), gameJson["category"].GetString());
 
-					games.push_back(game);
+					games.emplace_back(game);
 				}
 				else
 				{

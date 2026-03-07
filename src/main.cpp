@@ -3,12 +3,8 @@
 
 int main() {
 	
-	try {
-		App::Application app;
-	}
-	catch (std::runtime_error e) {
-		printf(e.what());
-	}
+	App::Application app;
+	app.run();
 
 	return 0;
 }

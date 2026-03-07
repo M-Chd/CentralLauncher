@@ -42,3 +42,24 @@ std::vector<Game>::iterator GameLibrary::findById(const std::string &id)
     }
     return games.end();
 }
+
+/*
+   Debug method
+*/
+void Domain::GameLibrary::displayGamesOnConsole()
+{
+    if (!games.empty())
+    {
+        for (auto& g : games)
+        {
+            printf(g.getId().c_str());
+            printf("\n");
+            printf(g.getName().c_str());
+            printf("\n");
+            printf(g.getGamePath().c_str());
+            printf("\n");
+            printf(g.getCategory().c_str());
+            printf("\n");
+        }
+    }
+}

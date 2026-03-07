@@ -12,11 +12,13 @@ namespace Domain
 
 		void loadGames(const std::vector<Game>& l_games);
 	
-		void addGame(Game &g) { games.push_back(g); }
+		void addGame(Game &g) { games.emplace_back(g); }
 
 		bool removeGame(const std::string &gameId);
 
 		const std::vector<Game> &getGames() const { return games; }
+
+		void displayGamesOnConsole();
 
 	private:
 		std::vector<Game> games;

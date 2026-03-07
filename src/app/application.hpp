@@ -19,6 +19,7 @@ namespace App
 
         bool initWindow();
         void quit();
+        void init();
         void run();
 
     private:
