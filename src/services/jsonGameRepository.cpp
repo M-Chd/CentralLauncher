@@ -3,7 +3,7 @@
 using namespace rapidjson;
 using namespace Domain;
 
-std::vector<Game> Services::JsonGameRepository::load()
+std::vector<Game> Services::JsonGameRepository::loadRepo()
 {
 	std::ifstream jsonFile(m_filepath);
 
@@ -69,7 +69,7 @@ std::vector<Game> Services::JsonGameRepository::load()
 	return games;
 }
 
-void Services::JsonGameRepository::save(const GameLibrary &library)
+void Services::JsonGameRepository::saveRepo(const Domain::GameLibrary &library)
 {
 	Document d;
 	d.SetObject();

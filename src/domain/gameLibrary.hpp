@@ -1,8 +1,8 @@
 #pragma once
 #include <iostream>
 #include <vector>
-#include "game.hpp"
-#include "../util/debug.h"
+#include "domain/game.hpp"
+#include "util/debug.h"
 
 namespace Domain
 {

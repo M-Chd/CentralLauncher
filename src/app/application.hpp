@@ -1,11 +1,13 @@
 #pragma once
 #include <iostream>
-#include "../services/gameLauncherService.hpp"
-#include "../domain/gameLibrary.hpp"
-#include "../services/jsonGameRepository.hpp"
-#include "../services/IGamesRepository.hpp"
-#include "util/debug.h"
+#include <memory>
+#include "services/gameLauncherService.hpp"
+#include "domain/gameLibrary.hpp"
+#include "services/jsonGameRepository.hpp"
 
+class Domain::GameLibrary;
+class Services::GameLaunchService;
+class Services::IGameRepository;
 
 namespace App
 {
@@ -21,9 +23,9 @@ namespace App
 
     private:
 
-        GameLibrary m_gameLibrary;
-        GameLaunchService m_gameLaunchService;
-        std::unique_ptr<IGameRepository> m_repository;
+        Domain::GameLibrary m_gameLibrary;
+        Services::GameLaunchService m_gameLaunchService;
+        std::unique_ptr<Services::IGameRepository> m_repository;
 
     };
 

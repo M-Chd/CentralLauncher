@@ -27,7 +27,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\mouad\OneDrive\Desktop\CentralLauncher\CmakeLists.txt" />
+    <CustomBuild Include="C:\Users\mouad\OneDrive\Desktop\CentralLauncher\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">

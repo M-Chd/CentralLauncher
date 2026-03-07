@@ -1,4 +1,4 @@
-#include "app/application.hpp"
+#include "application.hpp"
 
 using namespace App;
 using namespace Domain;
@@ -6,11 +6,8 @@ using namespace Services;
 
 Application::Application()
     : m_gameLibrary(),
-      m_gameLaunchService()
+    m_gameLaunchService(),
+    m_repository(std::make_unique<Services::JsonGameRepository>("config/games.json"))
 {
-
-    this->m_repository = std::make_unique<JsonGameRepository>("config/games.json");
-
-    auto games = m_repository->load();
-    m_gameLibrary.loadGames(games);
+    m_gameLibrary.loadGames(m_repository->loadRepo());
 }

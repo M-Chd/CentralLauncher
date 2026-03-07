@@ -1,5 +1,6 @@
+#pragma once
 #include <iostream>
-#include "../domain/game.hpp"
+#include "domain/game.hpp"
 
 namespace Services
 {

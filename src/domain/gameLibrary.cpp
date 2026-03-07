@@ -8,7 +8,7 @@ void GameLibrary::loadGames(const std::vector<Game>& l_games)
     {
         for (auto &g : l_games)
         {
-            games.push_back(g);
+            games.emplace_back(g);
         }
     }
     else
