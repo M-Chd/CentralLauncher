@@ -35,6 +35,20 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -44,6 +58,7 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\mingw64\\bin"
@@ -59,7 +74,6 @@ events:
         - "C:\\Program Files\\Microsoft\\Web Platform Installer\\"
         - "C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\"
         - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\mouad\\.cargo\\bin"
         - "C:\\Users\\mouad\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\mouad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -68,6 +82,20 @@ events:
         - "C:\\Program Files\\JetBrains\\WebStorm 2025.1.4.1\\bin"
         - "C:\\Users\\mouad\\.dotnet\\tools"
         - "C:\\Libraries\\apache-maven-3.9.12\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+      ENV{INCLUDE}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\ATLMFC\\include"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\include\\um"
   -
     kind: "message-v1"
     backtrace:
@@ -84,45 +112,45 @@ events:
       The output was:
       0
       Version MSBuild 17.14.23+b0019275e pour .NET Framework
-      La gÃ©nÃ©ration a dÃ©marrÃ© 06-03-26 23:21:46.
+      La g├®n├®ration a d├®marr├® 07-03-26 22:29:15.
       
-      Projet "C:\\Users\\mouad\\OneDrive\\Desktop\\CentralLauncher\\build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" sur le nÅ“ud 1 (cibles par dÃ©faut).
+      Projet "C:\\Users\\mouad\\Desktop\\CentralLauncher\\build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" sur le n┼ôud 1 (cibles par d├®faut).
       PrepareForBuild:
-        CrÃ©ation du rÃ©pertoire "Debug\\".
-        La sortie structurÃ©e est activÃ©e. La mise en forme du compilateur diagnostics reflÃ¨te la hiÃ©rarchie des erreurs. Pour plus dâ€™informations, consultez https://aka.ms/cpp/structured-output.
-        CrÃ©ation du rÃ©pertoire "Debug\\CompilerIdCXX.tlog\\".
+        Cr├®ation du r├®pertoire "Debug\\".
+        La sortie structur├®e est activ├®e. La mise en forme du compilateur diagnostics refl├¿te la hi├®rarchie des erreurs. Pour plus dÔÇÖinformations, consultez https://aka.ms/cpp/structured-output.
+        Cr├®ation du r├®pertoire "Debug\\CompilerIdCXX.tlog\\".
       InitializeBuildStatus:
-        CrÃ©ation de "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", car "AlwaysCreate" a Ã©tÃ© spÃ©cifiÃ©.
-        Mise Ã  jour de l'horodatage "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Cr├®ation de "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ├®t├® sp├®cifi├®.
+        Mise ├á jour de l'horodatage "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
       VcpkgTripletSelection:
-        Using triplet "x86-windows" from "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x86-windows\\"
+        Using triplet "x64-windows" from "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x64-windows\\"
         Using normalized configuration "Release"
       ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\CL.exe /c /I"C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x86-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
         CMakeCXXCompilerId.cpp
       Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x86-windows\\lib" /LIBPATH:"C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x86-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x86-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\mouad\\OneDrive\\Desktop\\CentralLauncher\\build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\mouad\\Desktop\\CentralLauncher\\build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
       AppLocalFromInstalled:
-        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\mouad\\OneDrive\\Desktop\\CentralLauncher\\build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x86-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\mouad\\Desktop\\CentralLauncher\\build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
         'pwsh.exe' n'est pas reconnu en tant que commande interne
-        ou externe, un programme exÃ©cutable ou un fichier de commandes.
-        La commande "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\mouad\\OneDrive\\Desktop\\CentralLauncher\\build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x86-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" s'est arrÃªtÃ©e avec le code 9009.
-        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\mouad\\OneDrive\\Desktop\\CentralLauncher\\build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x86-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        ou externe, un programme ex├®cutable ou un fichier de commandes.
+        La commande "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\mouad\\Desktop\\CentralLauncher\\build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" s'est arr├¬t├®e avec le code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\mouad\\Desktop\\CentralLauncher\\build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
-        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x86\\cl.exe
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
       FinalizeBuildStatus:
         Suppression du fichier "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
-        Mise Ã  jour de l'horodatage "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      GÃ©nÃ©ration du projet "C:\\Users\\mouad\\OneDrive\\Desktop\\CentralLauncher\\build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" terminÃ©e (cibles par dÃ©faut).
+        Mise ├á jour de l'horodatage "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      G├®n├®ration du projet "C:\\Users\\mouad\\Desktop\\CentralLauncher\\build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" termin├®e (cibles par d├®faut).
       
-      La gÃ©nÃ©ration a rÃ©ussi.
+      La g├®n├®ration a r├®ussi.
           0 Avertissement(s)
           0 Erreur(s)
       
-      Temps Ã©coulÃ© 00:00:02.22
+      Temps ├®coul├® 00:00:01.69
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -130,7 +158,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/mouad/OneDrive/Desktop/CentralLauncher/build/CMakeFiles/4.3.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/mouad/Desktop/CentralLauncher/build/CMakeFiles/4.3.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "find-v1"
@@ -154,7 +182,21 @@ events:
     names:
       - "link"
     candidate_directories:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
@@ -164,6 +206,7 @@ events:
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/mingw64/bin/"
@@ -179,7 +222,6 @@ events:
       - "C:/Program Files/Microsoft/Web Platform Installer/"
       - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/"
       - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Users/mouad/.cargo/bin/"
       - "C:/Users/mouad/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/mouad/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -187,11 +229,29 @@ events:
       - "C:/Program Files/JetBrains/WebStorm 2025.1.4.1/bin/"
       - "C:/Users/mouad/.dotnet/tools/"
       - "C:/Libraries/apache-maven-3.9.12/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
     searched_directories:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/link.com"
-    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -201,6 +261,7 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\mingw64\\bin"
@@ -216,7 +277,6 @@ events:
         - "C:\\Program Files\\Microsoft\\Web Platform Installer\\"
         - "C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\"
         - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\mouad\\.cargo\\bin"
         - "C:\\Users\\mouad\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\mouad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -225,6 +285,10 @@ events:
         - "C:\\Program Files\\JetBrains\\WebStorm 2025.1.4.1\\bin"
         - "C:\\Users\\mouad\\.dotnet\\tools"
         - "C:\\Libraries\\apache-maven-3.9.12\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
   -
     kind: "find-v1"
     backtrace:
@@ -247,7 +311,21 @@ events:
     names:
       - "lld-link"
     candidate_directories:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
@@ -257,6 +335,7 @@ events:
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/mingw64/bin/"
@@ -272,7 +351,6 @@ events:
       - "C:/Program Files/Microsoft/Web Platform Installer/"
       - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/"
       - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Users/mouad/.cargo/bin/"
       - "C:/Users/mouad/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/mouad/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -280,10 +358,56 @@ events:
       - "C:/Program Files/JetBrains/WebStorm 2025.1.4.1/bin/"
       - "C:/Users/mouad/.dotnet/tools/"
       - "C:/Libraries/apache-maven-3.9.12/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
     searched_directories:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/lld-link.com"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/lld-link.exe"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/lld-link"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
@@ -311,6 +435,9 @@ events:
       - "C:/Windows/System32/OpenSSH/lld-link.com"
       - "C:/Windows/System32/OpenSSH/lld-link.exe"
       - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
       - "C:/Program Files/dotnet/lld-link.com"
       - "C:/Program Files/dotnet/lld-link.exe"
       - "C:/Program Files/dotnet/lld-link"
@@ -356,9 +483,6 @@ events:
       - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/lld-link.com"
       - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/lld-link.exe"
       - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/lld-link"
-      - "C:/Program Files/CMake/bin/lld-link.com"
-      - "C:/Program Files/CMake/bin/lld-link.exe"
-      - "C:/Program Files/CMake/bin/lld-link"
       - "C:/Users/mouad/.cargo/bin/lld-link.com"
       - "C:/Users/mouad/.cargo/bin/lld-link.exe"
       - "C:/Users/mouad/.cargo/bin/lld-link"
@@ -380,9 +504,35 @@ events:
       - "C:/Libraries/apache-maven-3.9.12/bin/lld-link.com"
       - "C:/Libraries/apache-maven-3.9.12/bin/lld-link.exe"
       - "C:/Libraries/apache-maven-3.9.12/bin/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/lld-link"
     found: false
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -392,6 +542,7 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\mingw64\\bin"
@@ -407,7 +558,6 @@ events:
         - "C:\\Program Files\\Microsoft\\Web Platform Installer\\"
         - "C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\"
         - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\mouad\\.cargo\\bin"
         - "C:\\Users\\mouad\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\mouad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -416,6 +566,10 @@ events:
         - "C:\\Program Files\\JetBrains\\WebStorm 2025.1.4.1\\bin"
         - "C:\\Users\\mouad\\.dotnet\\tools"
         - "C:\\Libraries\\apache-maven-3.9.12\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
   -
     kind: "find-v1"
     backtrace:
@@ -436,7 +590,21 @@ events:
     names:
       - "link"
     candidate_directories:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
@@ -446,6 +614,7 @@ events:
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/mingw64/bin/"
@@ -461,7 +630,6 @@ events:
       - "C:/Program Files/Microsoft/Web Platform Installer/"
       - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/"
       - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Users/mouad/.cargo/bin/"
       - "C:/Users/mouad/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/mouad/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -469,11 +637,29 @@ events:
       - "C:/Program Files/JetBrains/WebStorm 2025.1.4.1/bin/"
       - "C:/Users/mouad/.dotnet/tools/"
       - "C:/Libraries/apache-maven-3.9.12/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
     searched_directories:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/link.com"
-    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -483,6 +669,7 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\mingw64\\bin"
@@ -498,7 +685,6 @@ events:
         - "C:\\Program Files\\Microsoft\\Web Platform Installer\\"
         - "C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\"
         - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\mouad\\.cargo\\bin"
         - "C:\\Users\\mouad\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\mouad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -507,6 +693,10 @@ events:
         - "C:\\Program Files\\JetBrains\\WebStorm 2025.1.4.1\\bin"
         - "C:\\Users\\mouad\\.dotnet\\tools"
         - "C:\\Libraries\\apache-maven-3.9.12\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
   -
     kind: "find-v1"
     backtrace:
@@ -527,7 +717,21 @@ events:
     names:
       - "mt"
     candidate_directories:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
@@ -537,6 +741,7 @@ events:
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/mingw64/bin/"
@@ -552,7 +757,6 @@ events:
       - "C:/Program Files/Microsoft/Web Platform Installer/"
       - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/"
       - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Users/mouad/.cargo/bin/"
       - "C:/Users/mouad/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/mouad/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -560,109 +764,56 @@ events:
       - "C:/Program Files/JetBrains/WebStorm 2025.1.4.1/bin/"
       - "C:/Users/mouad/.dotnet/tools/"
       - "C:/Libraries/apache-maven-3.9.12/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
     searched_directories:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/mt.com"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/mt.exe"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/mt"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.com"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.exe"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
-      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.12.7-hotspot/bin/mt.com"
-      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.12.7-hotspot/bin/mt.exe"
-      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.12.7-hotspot/bin/mt"
-      - "C:/Windows/System32/mt.com"
-      - "C:/Windows/System32/mt.exe"
-      - "C:/Windows/System32/mt"
-      - "C:/Windows/mt.com"
-      - "C:/Windows/mt.exe"
-      - "C:/Windows/mt"
-      - "C:/Windows/System32/wbem/mt.com"
-      - "C:/Windows/System32/wbem/mt.exe"
-      - "C:/Windows/System32/wbem/mt"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
-      - "C:/Windows/System32/OpenSSH/mt.com"
-      - "C:/Windows/System32/OpenSSH/mt.exe"
-      - "C:/Windows/System32/OpenSSH/mt"
-      - "C:/Program Files/dotnet/mt.com"
-      - "C:/Program Files/dotnet/mt.exe"
-      - "C:/Program Files/dotnet/mt"
-      - "C:/Program Files/Git/cmd/mt.com"
-      - "C:/Program Files/Git/cmd/mt.exe"
-      - "C:/Program Files/Git/cmd/mt"
-      - "C:/Program Files/mingw64/bin/mt.com"
-      - "C:/Program Files/mingw64/bin/mt.exe"
-      - "C:/Program Files/mingw64/bin/mt"
-      - "C:/Libraries/SDL2/bin/mt.com"
-      - "C:/Libraries/SDL2/bin/mt.exe"
-      - "C:/Libraries/SDL2/bin/mt"
-      - "C:/Program Files/Neovim/bin/mt.com"
-      - "C:/Program Files/Neovim/bin/mt.exe"
-      - "C:/Program Files/Neovim/bin/mt"
-      - "C:/ProgramData/chocolatey/bin/mt.com"
-      - "C:/ProgramData/chocolatey/bin/mt.exe"
-      - "C:/ProgramData/chocolatey/bin/mt"
-      - "C:/Program Files/komorebi/bin/mt.com"
-      - "C:/Program Files/komorebi/bin/mt.exe"
-      - "C:/Program Files/komorebi/bin/mt"
-      - "C:/Program Files/whkd/bin/mt.com"
-      - "C:/Program Files/whkd/bin/mt.exe"
-      - "C:/Program Files/whkd/bin/mt"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
-      - "C:/Program Files/Docker/Docker/resources/bin/mt.com"
-      - "C:/Program Files/Docker/Docker/resources/bin/mt.exe"
-      - "C:/Program Files/Docker/Docker/resources/bin/mt"
-      - "C:/Program Files/PuTTY/mt.com"
-      - "C:/Program Files/PuTTY/mt.exe"
-      - "C:/Program Files/PuTTY/mt"
-      - "C:/Program Files/PowerToys/DSCModules/mt.com"
-      - "C:/Program Files/PowerToys/DSCModules/mt.exe"
-      - "C:/Program Files/PowerToys/DSCModules/mt"
-      - "C:/Program Files/Microsoft/Web Platform Installer/mt.com"
-      - "C:/Program Files/Microsoft/Web Platform Installer/mt.exe"
-      - "C:/Program Files/Microsoft/Web Platform Installer/mt"
-      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/mt.com"
-      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/mt.exe"
-      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/mt"
-      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/mt.com"
-      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/mt.exe"
-      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/mt"
-      - "C:/Program Files/CMake/bin/mt.com"
-      - "C:/Program Files/CMake/bin/mt.exe"
-      - "C:/Program Files/CMake/bin/mt"
-      - "C:/Users/mouad/.cargo/bin/mt.com"
-      - "C:/Users/mouad/.cargo/bin/mt.exe"
-      - "C:/Users/mouad/.cargo/bin/mt"
-      - "C:/Users/mouad/AppData/Local/Microsoft/WindowsApps/mt.com"
-      - "C:/Users/mouad/AppData/Local/Microsoft/WindowsApps/mt.exe"
-      - "C:/Users/mouad/AppData/Local/Microsoft/WindowsApps/mt"
-      - "C:/Users/mouad/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
-      - "C:/Users/mouad/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
-      - "C:/Users/mouad/AppData/Local/Programs/Microsoft VS Code/bin/mt"
-      - "C:/Users/mouad/AppData/Local/GitHubDesktop/bin/mt.com"
-      - "C:/Users/mouad/AppData/Local/GitHubDesktop/bin/mt.exe"
-      - "C:/Users/mouad/AppData/Local/GitHubDesktop/bin/mt"
-      - "C:/Program Files/JetBrains/WebStorm 2025.1.4.1/bin/mt.com"
-      - "C:/Program Files/JetBrains/WebStorm 2025.1.4.1/bin/mt.exe"
-      - "C:/Program Files/JetBrains/WebStorm 2025.1.4.1/bin/mt"
-      - "C:/Users/mouad/.dotnet/tools/mt.com"
-      - "C:/Users/mouad/.dotnet/tools/mt.exe"
-      - "C:/Users/mouad/.dotnet/tools/mt"
-      - "C:/Libraries/apache-maven-3.9.12/bin/mt.com"
-      - "C:/Libraries/apache-maven-3.9.12/bin/mt.exe"
-      - "C:/Libraries/apache-maven-3.9.12/bin/mt"
-    found: false
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/mt"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/mt"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/mt"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/mt.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/mt.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/mt"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/mt"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/mt.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/mt.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -672,6 +823,7 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\mingw64\\bin"
@@ -687,7 +839,6 @@ events:
         - "C:\\Program Files\\Microsoft\\Web Platform Installer\\"
         - "C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\"
         - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\mouad\\.cargo\\bin"
         - "C:\\Users\\mouad\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\mouad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -696,6 +847,10 @@ events:
         - "C:\\Program Files\\JetBrains\\WebStorm 2025.1.4.1\\bin"
         - "C:\\Users\\mouad\\.dotnet\\tools"
         - "C:\\Libraries\\apache-maven-3.9.12\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
   -
     kind: "find-v1"
     backtrace:
@@ -716,7 +871,21 @@ events:
     names:
       - "lib"
     candidate_directories:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
@@ -726,6 +895,7 @@ events:
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/mingw64/bin/"
@@ -741,7 +911,6 @@ events:
       - "C:/Program Files/Microsoft/Web Platform Installer/"
       - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/"
       - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Users/mouad/.cargo/bin/"
       - "C:/Users/mouad/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/mouad/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -749,11 +918,29 @@ events:
       - "C:/Program Files/JetBrains/WebStorm 2025.1.4.1/bin/"
       - "C:/Users/mouad/.dotnet/tools/"
       - "C:/Libraries/apache-maven-3.9.12/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
     searched_directories:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/lib.com"
-    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/lib.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -763,6 +950,7 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\mingw64\\bin"
@@ -778,7 +966,6 @@ events:
         - "C:\\Program Files\\Microsoft\\Web Platform Installer\\"
         - "C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\"
         - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\mouad\\.cargo\\bin"
         - "C:\\Users\\mouad\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\mouad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -787,6 +974,10 @@ events:
         - "C:\\Program Files\\JetBrains\\WebStorm 2025.1.4.1\\bin"
         - "C:\\Users\\mouad\\.dotnet\\tools"
         - "C:\\Libraries\\apache-maven-3.9.12\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
   -
     kind: "find-v1"
     backtrace:
@@ -810,6 +1001,20 @@ events:
     names:
       - "rc"
     candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
@@ -819,6 +1024,7 @@ events:
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/mingw64/bin/"
@@ -834,7 +1040,6 @@ events:
       - "C:/Program Files/Microsoft/Web Platform Installer/"
       - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/"
       - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Users/mouad/.cargo/bin/"
       - "C:/Users/mouad/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/mouad/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -842,6 +1047,10 @@ events:
       - "C:/Program Files/JetBrains/WebStorm 2025.1.4.1/bin/"
       - "C:/Users/mouad/.dotnet/tools/"
       - "C:/Libraries/apache-maven-3.9.12/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -855,141 +1064,48 @@ events:
       - "C:/Program Files (x86)/GameLauncher/sbin/"
       - "C:/Program Files (x86)/GameLauncher/"
     searched_directories:
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.com"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.exe"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.com"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.exe"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc"
-      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.12.7-hotspot/bin/rc.com"
-      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.12.7-hotspot/bin/rc.exe"
-      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.12.7-hotspot/bin/rc"
-      - "C:/Windows/System32/rc.com"
-      - "C:/Windows/System32/rc.exe"
-      - "C:/Windows/System32/rc"
-      - "C:/Windows/rc.com"
-      - "C:/Windows/rc.exe"
-      - "C:/Windows/rc"
-      - "C:/Windows/System32/wbem/rc.com"
-      - "C:/Windows/System32/wbem/rc.exe"
-      - "C:/Windows/System32/wbem/rc"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
-      - "C:/Windows/System32/OpenSSH/rc.com"
-      - "C:/Windows/System32/OpenSSH/rc.exe"
-      - "C:/Windows/System32/OpenSSH/rc"
-      - "C:/Program Files/dotnet/rc.com"
-      - "C:/Program Files/dotnet/rc.exe"
-      - "C:/Program Files/dotnet/rc"
-      - "C:/Program Files/Git/cmd/rc.com"
-      - "C:/Program Files/Git/cmd/rc.exe"
-      - "C:/Program Files/Git/cmd/rc"
-      - "C:/Program Files/mingw64/bin/rc.com"
-      - "C:/Program Files/mingw64/bin/rc.exe"
-      - "C:/Program Files/mingw64/bin/rc"
-      - "C:/Libraries/SDL2/bin/rc.com"
-      - "C:/Libraries/SDL2/bin/rc.exe"
-      - "C:/Libraries/SDL2/bin/rc"
-      - "C:/Program Files/Neovim/bin/rc.com"
-      - "C:/Program Files/Neovim/bin/rc.exe"
-      - "C:/Program Files/Neovim/bin/rc"
-      - "C:/ProgramData/chocolatey/bin/rc.com"
-      - "C:/ProgramData/chocolatey/bin/rc.exe"
-      - "C:/ProgramData/chocolatey/bin/rc"
-      - "C:/Program Files/komorebi/bin/rc.com"
-      - "C:/Program Files/komorebi/bin/rc.exe"
-      - "C:/Program Files/komorebi/bin/rc"
-      - "C:/Program Files/whkd/bin/rc.com"
-      - "C:/Program Files/whkd/bin/rc.exe"
-      - "C:/Program Files/whkd/bin/rc"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
-      - "C:/Program Files/Docker/Docker/resources/bin/rc.com"
-      - "C:/Program Files/Docker/Docker/resources/bin/rc.exe"
-      - "C:/Program Files/Docker/Docker/resources/bin/rc"
-      - "C:/Program Files/PuTTY/rc.com"
-      - "C:/Program Files/PuTTY/rc.exe"
-      - "C:/Program Files/PuTTY/rc"
-      - "C:/Program Files/PowerToys/DSCModules/rc.com"
-      - "C:/Program Files/PowerToys/DSCModules/rc.exe"
-      - "C:/Program Files/PowerToys/DSCModules/rc"
-      - "C:/Program Files/Microsoft/Web Platform Installer/rc.com"
-      - "C:/Program Files/Microsoft/Web Platform Installer/rc.exe"
-      - "C:/Program Files/Microsoft/Web Platform Installer/rc"
-      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/rc.com"
-      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/rc.exe"
-      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/rc"
-      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/rc.com"
-      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/rc.exe"
-      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/rc"
-      - "C:/Program Files/CMake/bin/rc.com"
-      - "C:/Program Files/CMake/bin/rc.exe"
-      - "C:/Program Files/CMake/bin/rc"
-      - "C:/Users/mouad/.cargo/bin/rc.com"
-      - "C:/Users/mouad/.cargo/bin/rc.exe"
-      - "C:/Users/mouad/.cargo/bin/rc"
-      - "C:/Users/mouad/AppData/Local/Microsoft/WindowsApps/rc.com"
-      - "C:/Users/mouad/AppData/Local/Microsoft/WindowsApps/rc.exe"
-      - "C:/Users/mouad/AppData/Local/Microsoft/WindowsApps/rc"
-      - "C:/Users/mouad/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
-      - "C:/Users/mouad/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
-      - "C:/Users/mouad/AppData/Local/Programs/Microsoft VS Code/bin/rc"
-      - "C:/Users/mouad/AppData/Local/GitHubDesktop/bin/rc.com"
-      - "C:/Users/mouad/AppData/Local/GitHubDesktop/bin/rc.exe"
-      - "C:/Users/mouad/AppData/Local/GitHubDesktop/bin/rc"
-      - "C:/Program Files/JetBrains/WebStorm 2025.1.4.1/bin/rc.com"
-      - "C:/Program Files/JetBrains/WebStorm 2025.1.4.1/bin/rc.exe"
-      - "C:/Program Files/JetBrains/WebStorm 2025.1.4.1/bin/rc"
-      - "C:/Users/mouad/.dotnet/tools/rc.com"
-      - "C:/Users/mouad/.dotnet/tools/rc.exe"
-      - "C:/Users/mouad/.dotnet/tools/rc"
-      - "C:/Libraries/apache-maven-3.9.12/bin/rc.com"
-      - "C:/Libraries/apache-maven-3.9.12/bin/rc.exe"
-      - "C:/Libraries/apache-maven-3.9.12/bin/rc"
-      - "C:/Program Files/bin/rc.com"
-      - "C:/Program Files/bin/rc.exe"
-      - "C:/Program Files/bin/rc"
-      - "C:/Program Files/sbin/rc.com"
-      - "C:/Program Files/sbin/rc.exe"
-      - "C:/Program Files/sbin/rc"
-      - "C:/Program Files/rc.com"
-      - "C:/Program Files/rc.exe"
-      - "C:/Program Files/rc"
-      - "C:/Program Files (x86)/bin/rc.com"
-      - "C:/Program Files (x86)/bin/rc.exe"
-      - "C:/Program Files (x86)/bin/rc"
-      - "C:/Program Files (x86)/sbin/rc.com"
-      - "C:/Program Files (x86)/sbin/rc.exe"
-      - "C:/Program Files (x86)/sbin/rc"
-      - "C:/Program Files (x86)/rc.com"
-      - "C:/Program Files (x86)/rc.exe"
-      - "C:/Program Files (x86)/rc"
-      - "C:/Program Files/CMake/bin/rc.com"
-      - "C:/Program Files/CMake/bin/rc.exe"
-      - "C:/Program Files/CMake/bin/rc"
-      - "C:/Program Files/CMake/sbin/rc.com"
-      - "C:/Program Files/CMake/sbin/rc.exe"
-      - "C:/Program Files/CMake/sbin/rc"
-      - "C:/Program Files/CMake/rc.com"
-      - "C:/Program Files/CMake/rc.exe"
-      - "C:/Program Files/CMake/rc"
-      - "C:/Program Files (x86)/GameLauncher/bin/rc.com"
-      - "C:/Program Files (x86)/GameLauncher/bin/rc.exe"
-      - "C:/Program Files (x86)/GameLauncher/bin/rc"
-      - "C:/Program Files (x86)/GameLauncher/sbin/rc.com"
-      - "C:/Program Files (x86)/GameLauncher/sbin/rc.exe"
-      - "C:/Program Files (x86)/GameLauncher/sbin/rc"
-      - "C:/Program Files (x86)/GameLauncher/rc.com"
-      - "C:/Program Files (x86)/GameLauncher/rc.exe"
-      - "C:/Program Files (x86)/GameLauncher/rc"
-    found: false
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/rc"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/rc"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/rc"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/rc.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/rc.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/rc"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/rc"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/rc.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/rc.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -999,6 +1115,7 @@ events:
         - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\mingw64\\bin"
@@ -1014,7 +1131,6 @@ events:
         - "C:\\Program Files\\Microsoft\\Web Platform Installer\\"
         - "C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\"
         - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\mouad\\.cargo\\bin"
         - "C:\\Users\\mouad\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\mouad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -1023,6 +1139,10 @@ events:
         - "C:\\Program Files\\JetBrains\\WebStorm 2025.1.4.1\\bin"
         - "C:\\Users\\mouad\\.dotnet\\tools"
         - "C:\\Libraries\\apache-maven-3.9.12\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/GameLauncher"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1038,60 +1158,60 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/mouad/OneDrive/Desktop/CentralLauncher/build/CMakeFiles/CMakeScratch/TryCompile-nxoluj"
-      binary: "C:/Users/mouad/OneDrive/Desktop/CentralLauncher/build/CMakeFiles/CMakeScratch/TryCompile-nxoluj"
+      source: "C:/Users/mouad/Desktop/CentralLauncher/build/CMakeFiles/CMakeScratch/TryCompile-kmcjoz"
+      binary: "C:/Users/mouad/Desktop/CentralLauncher/build/CMakeFiles/CMakeScratch/TryCompile-kmcjoz"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
-      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/mouad/OneDrive/Desktop/CentralLauncher/build/CMakeFiles/CMakeScratch/TryCompile-nxoluj'
+        Change Dir: 'C:/Users/mouad/Desktop/CentralLauncher/build/CMakeFiles/CMakeScratch/TryCompile-kmcjoz'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8e26f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_03d28.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Version MSBuild 17.14.23+b0019275e pour .NET Framework
-        La gÃ©nÃ©ration a dÃ©marrÃ© 06-03-26 23:21:49.
+        La g├®n├®ration a d├®marr├® 07-03-26 22:29:18.
         
-        Projet "C:\\Users\\mouad\\OneDrive\\Desktop\\CentralLauncher\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxoluj\\cmTC_8e26f.vcxproj" sur le nÅ“ud 1 (cibles par dÃ©faut).
+        Projet "C:\\Users\\mouad\\Desktop\\CentralLauncher\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmcjoz\\cmTC_03d28.vcxproj" sur le n┼ôud 1 (cibles par d├®faut).
         PrepareForBuild:
-          La sortie structurÃ©e est activÃ©e. La mise en forme du compilateur diagnostics reflÃ¨te la hiÃ©rarchie des erreurs. Pour plus dâ€™informations, consultez https://aka.ms/cpp/structured-output.
-          CrÃ©ation du rÃ©pertoire "C:\\Users\\mouad\\OneDrive\\Desktop\\CentralLauncher\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxoluj\\Debug\\".
-          CrÃ©ation du rÃ©pertoire "cmTC_8e26f.dir\\Debug\\cmTC_8e26f.tlog\\".
+          La sortie structur├®e est activ├®e. La mise en forme du compilateur diagnostics refl├¿te la hi├®rarchie des erreurs. Pour plus dÔÇÖinformations, consultez https://aka.ms/cpp/structured-output.
+          Cr├®ation du r├®pertoire "C:\\Users\\mouad\\Desktop\\CentralLauncher\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmcjoz\\Debug\\".
+          Cr├®ation du r├®pertoire "cmTC_03d28.dir\\Debug\\cmTC_03d28.tlog\\".
         InitializeBuildStatus:
-          CrÃ©ation de "cmTC_8e26f.dir\\Debug\\cmTC_8e26f.tlog\\unsuccessfulbuild", car "AlwaysCreate" a Ã©tÃ© spÃ©cifiÃ©.
-          Mise Ã  jour de l'horodatage "cmTC_8e26f.dir\\Debug\\cmTC_8e26f.tlog\\unsuccessfulbuild".
+          Cr├®ation de "cmTC_03d28.dir\\Debug\\cmTC_03d28.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ├®t├® sp├®cifi├®.
+          Mise ├á jour de l'horodatage "cmTC_03d28.dir\\Debug\\cmTC_03d28.tlog\\unsuccessfulbuild".
         VcpkgTripletSelection:
-          Using triplet "x86-windows" from "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x86-windows\\"
+          Using triplet "x64-windows" from "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\CL.exe /c /I"C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x86-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_8e26f.dir\\Debug\\\\" /Fd"cmTC_8e26f.dir\\Debug\\vc143.pdb" /external:W1 /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
-          Compilateur d'optimisation Microsoft (R) C/C++ versionÂ 19.44.35222 pour x86
-          Copyright (C) Microsoft Corporation. Tous droits rÃ©servÃ©s.
-          cl /c /I"C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x86-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_8e26f.dir\\Debug\\\\" /Fd"cmTC_8e26f.dir\\Debug\\vc143.pdb" /external:W1 /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_03d28.dir\\Debug\\\\" /Fd"cmTC_03d28.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          Compilateur d'optimisation Microsoft (R) C/C++ version┬á19.44.35222 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits r├®serv├®s.
+          cl /c /I"C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_03d28.dir\\Debug\\\\" /Fd"cmTC_03d28.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x86\\link.exe /OUT:"C:\\Users\\mouad\\OneDrive\\Desktop\\CentralLauncher\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxoluj\\Debug\\cmTC_8e26f.exe" /INCREMENTAL /ILK:"cmTC_8e26f.dir\\Debug\\cmTC_8e26f.ilk" /NOLOGO /LIBPATH:"C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x86-windows\\debug\\lib" /LIBPATH:"C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x86-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x86-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/mouad/OneDrive/Desktop/CentralLauncher/build/CMakeFiles/CMakeScratch/TryCompile-nxoluj/Debug/cmTC_8e26f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/mouad/OneDrive/Desktop/CentralLauncher/build/CMakeFiles/CMakeScratch/TryCompile-nxoluj/Debug/cmTC_8e26f.lib" /MACHINE:X86  /machine:X86 cmTC_8e26f.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_8e26f.vcxproj -> C:\\Users\\mouad\\OneDrive\\Desktop\\CentralLauncher\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxoluj\\Debug\\cmTC_8e26f.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\mouad\\Desktop\\CentralLauncher\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmcjoz\\Debug\\cmTC_03d28.exe" /INCREMENTAL /ILK:"cmTC_03d28.dir\\Debug\\cmTC_03d28.ilk" /NOLOGO /LIBPATH:"C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/mouad/Desktop/CentralLauncher/build/CMakeFiles/CMakeScratch/TryCompile-kmcjoz/Debug/cmTC_03d28.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/mouad/Desktop/CentralLauncher/build/CMakeFiles/CMakeScratch/TryCompile-kmcjoz/Debug/cmTC_03d28.lib" /MACHINE:X64  /machine:x64 cmTC_03d28.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_03d28.vcxproj -> C:\\Users\\mouad\\Desktop\\CentralLauncher\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmcjoz\\Debug\\cmTC_03d28.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\mouad\\OneDrive\\Desktop\\CentralLauncher\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxoluj\\Debug\\cmTC_8e26f.exe" "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x86-windows\\debug\\bin" "cmTC_8e26f.dir\\Debug\\cmTC_8e26f.tlog\\cmTC_8e26f.write.1u.tlog" "cmTC_8e26f.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\mouad\\Desktop\\CentralLauncher\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmcjoz\\Debug\\cmTC_03d28.exe" "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_03d28.dir\\Debug\\cmTC_03d28.tlog\\cmTC_03d28.write.1u.tlog" "cmTC_03d28.dir\\Debug\\vcpkg.applocal.log"
           'pwsh.exe' n'est pas reconnu en tant que commande interne
-          ou externe, un programme exÃ©cutable ou un fichier de commandes.
-          La commande "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\mouad\\OneDrive\\Desktop\\CentralLauncher\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxoluj\\Debug\\cmTC_8e26f.exe" "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x86-windows\\debug\\bin" "cmTC_8e26f.dir\\Debug\\cmTC_8e26f.tlog\\cmTC_8e26f.write.1u.tlog" "cmTC_8e26f.dir\\Debug\\vcpkg.applocal.log"" s'est arrÃªtÃ©e avec le code 9009.
-          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\mouad\\OneDrive\\Desktop\\CentralLauncher\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxoluj\\Debug\\cmTC_8e26f.exe" "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x86-windows\\debug\\bin" "cmTC_8e26f.dir\\Debug\\cmTC_8e26f.tlog\\cmTC_8e26f.write.1u.tlog" "cmTC_8e26f.dir\\Debug\\vcpkg.applocal.log"
+          ou externe, un programme ex├®cutable ou un fichier de commandes.
+          La commande "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\mouad\\Desktop\\CentralLauncher\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmcjoz\\Debug\\cmTC_03d28.exe" "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_03d28.dir\\Debug\\cmTC_03d28.tlog\\cmTC_03d28.write.1u.tlog" "cmTC_03d28.dir\\Debug\\vcpkg.applocal.log"" s'est arr├¬t├®e avec le code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\mouad\\Desktop\\CentralLauncher\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmcjoz\\Debug\\cmTC_03d28.exe" "C:\\Users\\mouad\\OneDrive\\Desktop\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_03d28.dir\\Debug\\cmTC_03d28.tlog\\cmTC_03d28.write.1u.tlog" "cmTC_03d28.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          Suppression du fichier "cmTC_8e26f.dir\\Debug\\cmTC_8e26f.tlog\\unsuccessfulbuild".
-          Mise Ã  jour de l'horodatage "cmTC_8e26f.dir\\Debug\\cmTC_8e26f.tlog\\cmTC_8e26f.lastbuildstate".
-        GÃ©nÃ©ration du projet "C:\\Users\\mouad\\OneDrive\\Desktop\\CentralLauncher\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxoluj\\cmTC_8e26f.vcxproj" terminÃ©e (cibles par dÃ©faut).
+          Suppression du fichier "cmTC_03d28.dir\\Debug\\cmTC_03d28.tlog\\unsuccessfulbuild".
+          Mise ├á jour de l'horodatage "cmTC_03d28.dir\\Debug\\cmTC_03d28.tlog\\cmTC_03d28.lastbuildstate".
+        G├®n├®ration du projet "C:\\Users\\mouad\\Desktop\\CentralLauncher\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmcjoz\\cmTC_03d28.vcxproj" termin├®e (cibles par d├®faut).
         
-        La gÃ©nÃ©ration a rÃ©ussi.
+        La g├®n├®ration a r├®ussi.
             0 Avertissement(s)
             0 Erreur(s)
         
-        Temps Ã©coulÃ© 00:00:01.24
+        Temps ├®coul├® 00:00:01.64
         
       exitCode: 0
   -
@@ -1104,7 +1224,7 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x86/link.exe
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
         implicit libs: []
         implicit objs: []
         implicit dirs: []
@@ -1119,866 +1239,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x86/link.exe" "-v"
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.44.35222.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
-  -
-    kind: "find_package-v1"
-    backtrace:
-      - "CMakeLists.txt:13 (find_package)"
-    name: "RapidJSON"
-    configs:
-      -
-        filename: "RapidJSON.cps"
-        kind: "cps"
-      -
-        filename: "rapidjson.cps"
-        kind: "cps"
-      -
-        filename: "RapidJSONConfig.cmake"
-        kind: "cmake"
-      -
-        filename: "rapidjson-config.cmake"
-        kind: "cmake"
-    version_request:
-      exact: false
-    settings:
-      required: "required_explicit"
-      quiet: false
-      global: false
-      policy_scope: true
-      bypass_provider: false
-      names:
-        - "RapidJSON"
-      path_suffixes:
-        - ""
-      paths:
-        CMAKE_FIND_USE_CMAKE_PATH: true
-        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-        CMAKE_FIND_USE_INSTALL_PREFIX: true
-        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
-        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
-        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
-        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
-    candidates:
-      -
-        path: "C:/Users/mouad/OneDrive/Desktop/CentralLauncher/build/CMakeFiles/pkgRedirects/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/OneDrive/Desktop/CentralLauncher/build/CMakeFiles/pkgRedirects/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/OneDrive/Desktop/CentralLauncher/build/CMakeFiles/pkgRedirects/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/OneDrive/Desktop/CentralLauncher/build/CMakeFiles/pkgRedirects/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/OneDrive/Desktop/CentralLauncher/build/CMakeFiles/pkgRedirects/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/OneDrive/Desktop/CentralLauncher/build/CMakeFiles/pkgRedirects/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Common Files/Oracle/Java/javapath/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Common Files/Oracle/Java/javapath/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Common Files/Oracle/Java/javapath/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Common Files/Oracle/Java/javapath/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Common Files/Oracle/Java/javapath/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Common Files/Oracle/Java/javapath/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Eclipse Adoptium/jdk-17.0.12.7-hotspot/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Eclipse Adoptium/jdk-17.0.12.7-hotspot/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Eclipse Adoptium/jdk-17.0.12.7-hotspot/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Eclipse Adoptium/jdk-17.0.12.7-hotspot/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Eclipse Adoptium/jdk-17.0.12.7-hotspot/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Eclipse Adoptium/jdk-17.0.12.7-hotspot/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git/cmd/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git/cmd/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git/cmd/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git/cmd/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git/cmd/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git/cmd/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/mingw64/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/mingw64/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/mingw64/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/mingw64/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/mingw64/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/mingw64/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Neovim/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Neovim/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Neovim/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Neovim/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Neovim/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Neovim/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/ProgramData/chocolatey/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/ProgramData/chocolatey/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/ProgramData/chocolatey/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/ProgramData/chocolatey/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/ProgramData/chocolatey/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/ProgramData/chocolatey/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/komorebi/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/komorebi/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/komorebi/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/komorebi/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/komorebi/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/komorebi/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/whkd/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/whkd/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/whkd/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/whkd/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/whkd/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/whkd/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Docker/Docker/resources/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Docker/Docker/resources/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Docker/Docker/resources/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Docker/Docker/resources/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Docker/Docker/resources/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Docker/Docker/resources/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PuTTY/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PuTTY/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PuTTY/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PuTTY/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PuTTY/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PuTTY/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PowerToys/DSCModules/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PowerToys/DSCModules/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PowerToys/DSCModules/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PowerToys/DSCModules/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PowerToys/DSCModules/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PowerToys/DSCModules/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft/Web Platform Installer/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft/Web Platform Installer/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft/Web Platform Installer/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft/Web Platform Installer/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft/Web Platform Installer/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft/Web Platform Installer/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/.cargo/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/.cargo/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/.cargo/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/.cargo/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/.cargo/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/.cargo/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/AppData/Local/Microsoft/WindowsApps/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/AppData/Local/Microsoft/WindowsApps/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/AppData/Local/Microsoft/WindowsApps/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/AppData/Local/Microsoft/WindowsApps/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/AppData/Local/Microsoft/WindowsApps/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/AppData/Local/Microsoft/WindowsApps/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/AppData/Local/Programs/Microsoft VS Code/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/AppData/Local/Programs/Microsoft VS Code/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/AppData/Local/Programs/Microsoft VS Code/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/AppData/Local/Programs/Microsoft VS Code/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/AppData/Local/Programs/Microsoft VS Code/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/AppData/Local/Programs/Microsoft VS Code/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/AppData/Local/GitHubDesktop/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/AppData/Local/GitHubDesktop/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/AppData/Local/GitHubDesktop/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/AppData/Local/GitHubDesktop/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/AppData/Local/GitHubDesktop/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/mouad/AppData/Local/GitHubDesktop/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/JetBrains/WebStorm 2025.1.4.1/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/JetBrains/WebStorm 2025.1.4.1/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/JetBrains/WebStorm 2025.1.4.1/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/JetBrains/WebStorm 2025.1.4.1/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/JetBrains/WebStorm 2025.1.4.1/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/JetBrains/WebStorm 2025.1.4.1/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Libraries/apache-maven-3.9.12/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Libraries/apache-maven-3.9.12/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Libraries/apache-maven-3.9.12/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Libraries/apache-maven-3.9.12/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Libraries/apache-maven-3.9.12/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Libraries/apache-maven-3.9.12/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/RapidJSONConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/rapidjson-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/lib/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/lib/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/share/cps/RapidJSON.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/share/cps/rapidjson.cps"
-        mode: "cps"
-        reason: "no_exist"
-    found: null
-    search_context:
-      ENV{PATH}:
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.12.7-hotspot\\bin"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\mingw64\\bin"
-        - "C:\\Libraries\\SDL2\\bin"
-        - "C:\\Program Files\\Neovim\\bin"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files\\komorebi\\bin\\"
-        - "C:\\Program Files\\whkd\\bin\\"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\PuTTY\\"
-        - "C:\\Program Files\\PowerToys\\DSCModules\\"
-        - "C:\\Program Files\\Microsoft\\Web Platform Installer\\"
-        - "C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\"
-        - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\mouad\\.cargo\\bin"
-        - "C:\\Users\\mouad\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\mouad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\mouad\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Program Files\\JetBrains\\WebStorm 2025.1.4.1\\bin"
-        - "C:\\Users\\mouad\\.dotnet\\tools"
-        - "C:\\Libraries\\apache-maven-3.9.12\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/GameLauncher"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/GameLauncher"
 ...

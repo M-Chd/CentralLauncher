@@ -5,6 +5,8 @@ using namespace Domain;
 
 std::vector<Game> Services::JsonGameRepository::loadRepo()
 {
+	//std::cout << "Current Dir : " << std::filesystem::current_path() << std::endl;
+
 	std::ifstream jsonFile(m_filepath);
 
 	if (!jsonFile)
@@ -91,6 +93,9 @@ void Services::JsonGameRepository::saveRepo(const Domain::GameLibrary &library)
 
 		gameObject.AddMember("executable",
 							 Value(game.getGamePath().c_str(), allocator),
+							 allocator);
+		
+		gameObject.AddMember("category",Value(game.getCategory().c_str(), allocator),
 							 allocator);
 
 		gamesArray.PushBack(gameObject, allocator);
