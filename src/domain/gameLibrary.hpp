@@ -20,10 +20,15 @@ namespace Domain
 
 		void displayGamesOnConsole();
 
-	private:
-		std::vector<Game> games;
+		Game& searchGame(const std::string& id);
+
+		std::vector<Game> searchGamebyName(const std::string& name);
 
 	protected:
 		std::vector<Game>::iterator findById(const std::string &id);
+
+	private:
+		std::vector<Game> games;
+
 	};
 }

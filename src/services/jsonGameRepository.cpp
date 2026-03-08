@@ -44,10 +44,17 @@ std::vector<Game> Services::JsonGameRepository::loadRepo()
 					gameJson.HasMember("executable") && gameJson.HasMember("category"))
 				{
 
-					Game game = Game(gameJson["id"].GetString(), gameJson["name"].GetString(),
-									 gameJson["executable"].GetString(), gameJson["category"].GetString());
+					try {
 
-					games.emplace_back(game);
+						Game game = Game(gameJson["id"].GetString(), gameJson["name"].GetString(),
+							gameJson["executable"].GetString(), gameJson["category"].GetString());
+
+						games.emplace_back(game);
+					}
+					catch (std::runtime_error e)
+					{
+						printf(e.what());
+					}
 				}
 				else
 				{
