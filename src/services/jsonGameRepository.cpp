@@ -50,10 +50,12 @@ std::vector<Game> Services::JsonGameRepository::loadRepo()
 							gameJson["executable"].GetString(), gameJson["category"].GetString());
 
 						games.emplace_back(game);
+						LOG("+Game added");
 					}
 					catch (std::runtime_error e)
 					{
 						printf(e.what());
+						ERROR(e.what());
 					}
 				}
 				else

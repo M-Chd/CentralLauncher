@@ -13,7 +13,13 @@ namespace UI {
 	public:
 		explicit MainWindow(App::Application* app, QWidget* parent = nullptr);
 
+		void handleButton(); //test
+		void handleAddGame();
+		void handleSearchGame();
+
+
 	private:
 		App::Application* application;
+		QPushButton* m_btn;
 	};
 }
