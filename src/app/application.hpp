@@ -17,8 +17,12 @@ namespace App
 
         Application();
 
-        bool initWindow();
-        void quit();
+        std::vector<Domain::Game> getLibrary();
+        void addGame();
+        void removeGame(/*parametre ? */);
+        void loadGame(/*parametre ? */);
+        void launchgame(/*parametre ? */);
+
         void init();
         void run();
 

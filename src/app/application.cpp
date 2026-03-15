@@ -9,6 +9,12 @@ Application::Application()
     m_gameLaunchService(),
     m_repository(std::make_unique<Services::JsonGameRepository>("config/game.json"))
 {
+    init();
+}
+
+std::vector<Domain::Game> App::Application::getLibrary()
+{
+    return m_gameLibrary.getGames();
 }
 
 void App::Application::init()
@@ -21,6 +27,7 @@ void App::Application::init()
     }
 }
 
+/*
 void App::Application::run()
 {
     init();
@@ -28,3 +35,5 @@ void App::Application::run()
     m_gameLibrary.addGame(g);
     m_gameLibrary.displayGamesOnConsole();
 }
+*/
+

@@ -1,8 +1,9 @@
 #pragma once
 #include <QMainWindow>
-#include <QVBoxLayout>
+#include <QListWidget>
 #include <qlabel.h>
 #include <qbuttongroup.h>
+#include <QVboxLayout>
 #include <qpushbutton.h>
 #include "domain/game.hpp"
 #include "domain/gameLibrary.hpp"
@@ -14,14 +15,19 @@ namespace UI {
 	public:
 		explicit GameListWidget(QWidget* parent = nullptr);
 
-		void launchgameSelected(const std::string id);
-		void removeGameSelected(const std::string id);
-		void gameSelected(const std::string id);
-		
+		void addGame();
+		void removeGame();
+		void clearGames(); 
+
+		QListWidget* getListWidget() const;
 		void updateGames(const std::vector<Domain::Game>& games);
 
 	private:
-		QVBoxLayout* mainLayout;
-		std::vector<Domain::Game> m_GameList;
+		void createItemFromGame(const Domain::Game& g);
+		void extractGameIdFromItem();
+
+	private:
+		QListWidget* listWidget;
+		QVBoxLayout* layout;
 	};
 }

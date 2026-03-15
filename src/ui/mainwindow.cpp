@@ -3,15 +3,26 @@
 UI::MainWindow::MainWindow(App::Application* app,QWidget* parent) :
 	QMainWindow(parent), application(app)
 {
-	this->setFixedSize(800, 600); //480p 
+	setUpUI();
+	refreshGameList();
+}
 
-	m_btn = new QPushButton("Test", this);
-	m_btn->setGeometry(QRect(QPoint(100, 100), QSize(200, 50)));
+void UI::MainWindow::setUpUI()
+{
+	this->setFixedSize(1280, 720); //720p 
+	m_addGameBtn = new QPushButton("Test", this);
+	m_addGameBtn->setGeometry(QRect(QPoint(300, 300), QSize(200, 50)));
 
-	connect(m_btn, &QPushButton::released, this, &MainWindow::handleButton);
+	connect(m_addGameBtn, &QPushButton::released, this, &MainWindow::handleButton);
 
-	//GameListWidget* listWidget = new GameListWidget(this);
-	//this->setCentralWidget(listWidget);
+	m_gameList = new GameListWidget(this);
+	this->setCentralWidget(m_gameList);
+	m_gameList->setMaximumSize(QSize(300,1000));
+}
+
+void UI::MainWindow::refreshGameList()
+{
+	m_gameList->updateGames(application->getLibrary());
 }
 
 /*
@@ -19,18 +30,9 @@ UI::MainWindow::MainWindow(App::Application* app,QWidget* parent) :
 */
 void UI::MainWindow::handleButton()
 {
-	m_btn->setText("Clic");
-	m_btn->resize(100, 100);
+	m_addGameBtn->setText("Clic");
+	m_addGameBtn->resize(100, 100);
 	std::cout << "Hello" << "\n";
 }
 
-void UI::MainWindow::handleAddGame()
-{
-
-}
-
-void UI::MainWindow::handleSearchGame()
-{
-
-}
 

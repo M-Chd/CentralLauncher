@@ -2,6 +2,9 @@
 #include <qmainwindow.h>
 #include <qobject.h>
 #include <qpushbutton.h>
+#include <qdialog.h>
+#include <qfiledialog.h>
+#include <qlineedit.h>
 #include "app/application.hpp"
 #include "gameListWidget.hpp"
 
@@ -14,12 +17,19 @@ namespace UI {
 		explicit MainWindow(App::Application* app, QWidget* parent = nullptr);
 
 		void handleButton(); //test
-		void handleAddGame();
-		void handleSearchGame();
+		void onAddGameClicked();
+		void onGameSelected(const std::string gameId);
+		void onGameDoubleClicked(std::string gameId);
+
+	private:
+		void setUpUI();
+		void setupConnections();
+		void refreshGameList();
 
 
 	private:
+		GameListWidget* m_gameList;
 		App::Application* application;
-		QPushButton* m_btn;
+		QPushButton* m_addGameBtn;
 	};
 }
