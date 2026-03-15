@@ -4,6 +4,8 @@ using namespace App;
 using namespace Domain;
 using namespace Services;
 
+using std::string;
+
 Application::Application()
     : m_gameLibrary(),
     m_gameLaunchService(),
@@ -15,6 +17,23 @@ Application::Application()
 std::vector<Domain::Game> App::Application::getLibrary()
 {
     return m_gameLibrary.getGames();
+}
+
+void App::Application::addGame(const string filePath,const string gameName,const string category)
+{
+    auto gameID = generateID();
+    Game g = Game(gameID, gameName, filePath, category);
+    m_gameLibrary.addGame(g);
+    m_repository->saveRepo(m_gameLibrary);
+}
+
+string App::Application::generateID()
+{
+    // is good ?
+    auto time = std::chrono::system_clock::now();
+    auto duration = time.time_since_epoch();
+    auto count = duration.count();
+    return std::to_string(count);
 }
 
 void App::Application::init()

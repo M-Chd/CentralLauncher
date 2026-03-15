@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <memory>
+#include <chrono>
 #include "services/gameLauncherService.hpp"
 #include "domain/gameLibrary.hpp"
 #include "services/jsonGameRepository.hpp"
@@ -18,13 +19,17 @@ namespace App
         Application();
 
         std::vector<Domain::Game> getLibrary();
-        void addGame();
-        void removeGame(/*parametre ? */);
-        void loadGame(/*parametre ? */);
+        void addGame(const std::string filePath, const std::string gameName,
+            const std::string category);
+        void removeGame(const std::string gameID);
         void launchgame(/*parametre ? */);
 
         void init();
         void run();
+
+    private:
+
+        std::string generateID();
 
     private:
 

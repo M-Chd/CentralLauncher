@@ -26,7 +26,6 @@ namespace UI {
 		void setupConnections();
 		void refreshGameList();
 
-
 	private:
 		GameListWidget* m_gameList;
 		App::Application* application;
