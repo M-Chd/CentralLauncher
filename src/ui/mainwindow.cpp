@@ -38,8 +38,8 @@ void UI::MainWindow::refreshGameList()
 */
 void UI::MainWindow::handleButton()
 {
-	QString filename = QFileDialog::getOpenFileName(this, tr("Open File"), "", tr("All files (*)"));
-	std::cout << "Hello" << "\n";
+	QString filepath = QFileDialog::getOpenFileName(this, tr("Open File"), "", tr("All files (*)"));
+	std::cout << filepath.toStdString() << "\n"; // file path
 }
 
 
