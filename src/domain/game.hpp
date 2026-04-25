@@ -13,6 +13,7 @@ namespace Domain
 			if (_id == "" || _name == "" || _path == "" || _cat == "")
 				throw std::invalid_argument("Game cannot be created...");
 		};
+		Game() {};
 
 		string getId() const { return id; }
 		string getName() const { return name; }

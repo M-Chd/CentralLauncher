@@ -10,7 +10,11 @@ UI::GameListWidget::GameListWidget(QWidget* parent) : QWidget(parent)
 
 void UI::GameListWidget::createItemFromGame(const Domain::Game& g)
 {
-	new QListWidgetItem(g.getName().c_str(), listWidget);
+	QListWidgetItem* item = new QListWidgetItem(QString::fromStdString(g.getName()));
+
+	item->setData(Qt::UserRole, QString::fromStdString(g.getId()));
+
+	listWidget->addItem(item);
 }
 
 void UI::GameListWidget::clearGames()

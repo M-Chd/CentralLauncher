@@ -2,6 +2,11 @@
 
 using namespace Domain;
 
+GameLibrary::GameLibrary()
+{
+    games.reserve(15);
+}
+
 void GameLibrary::loadGames(const std::vector<Game>& l_games)
 {
     if (!l_games.empty())
@@ -43,25 +48,26 @@ std::vector<Game>::iterator GameLibrary::findById(const std::string &id)
     return games.end();
 }
 
-Game& Domain::GameLibrary::searchGame(const std::string& id)
+std::pair<Domain::Game,bool> Domain::GameLibrary::searchGame(const std::string& id)
 {
     if (!games.empty()) {
         for (auto& g : games)
         {
             if (g.getId() == id)
             {
-                return g;
+                return { g, true };
             }
         }
     }
     LOG("No game with this Id found");
     std::cout << "No game with the following id: " << id << " exist..." << "\n";
-    return *games.end();
+    return { Domain::Game(),false };
 }
 
 std::vector<Game> Domain::GameLibrary::searchGamebyName(const std::string& name)
 {
     std::vector<Game> foundGames;
+    foundGames.reserve(15);
 
     if (!games.empty()) {
         for (auto& g : games)
@@ -73,26 +79,4 @@ std::vector<Game> Domain::GameLibrary::searchGamebyName(const std::string& name)
         }
     }
     return foundGames;
-}
-
-/*
-   Debug method
-*/
-void Domain::GameLibrary::displayGamesOnConsole()
-{
-    if (!games.empty())
-    {
-        for (auto& g : games)
-        {
-            printf("\n");
-            printf(g.getId().c_str());
-            printf("\n");
-            printf(g.getName().c_str());
-            printf("\n");
-            printf(g.getGamePath().c_str());
-            printf("\n");
-            printf(g.getCategory().c_str());
-            printf("\n");
-        }
-    }
 }

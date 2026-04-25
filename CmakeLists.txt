@@ -53,7 +53,7 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
 
 # Copy config folder next to executable
 add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
-    COMMAND ${CMAKE_COMMAND} -E copy_directory
-    ${CMAKE_SOURCE_DIR}/config
-    $<TARGET_FILE_DIR:${PROJECT_NAME}>/config
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different
+    ${CMAKE_SOURCE_DIR}/config/game.json
+    $<TARGET_FILE_DIR:${PROJECT_NAME}>/config/game.json
 )

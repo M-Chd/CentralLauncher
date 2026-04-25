@@ -27,6 +27,28 @@ void App::Application::addGame(const string filePath,const string gameName,const
     m_repository->saveRepo(m_gameLibrary);
 }
 
+void App::Application::removeGame(const std::string gameID)
+{
+    m_gameLibrary.removeGame(gameID);
+}
+
+Game App::Application::getGameById(const std::string& gameId)
+{
+    auto game = m_gameLibrary.searchGame(gameId);
+
+    if (game.second) //meh
+    {
+        return game.first;
+    }
+    else
+        throw std::runtime_error("No game with this Id exist...");
+}
+
+void App::Application::launchgame(const std::string& gameId)
+{
+    m_gameLaunchService.launch(m_gameLibrary.getGames(),gameId);
+}
+
 string App::Application::generateID()
 {
     // is good ?
@@ -45,14 +67,4 @@ void App::Application::init()
         printf(e.what());
     }
 }
-
-/*
-void App::Application::run()
-{
-    init();
-    Game g = Game("testId", "Test", "...", "testCat");
-    m_gameLibrary.addGame(g);
-    m_gameLibrary.displayGamesOnConsole();
-}
-*/
 

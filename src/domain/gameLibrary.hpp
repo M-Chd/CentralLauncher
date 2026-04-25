@@ -10,6 +10,8 @@ namespace Domain
 	{
 	public:
 
+		GameLibrary();
+
 		void loadGames(const std::vector<Game>& l_games);
 	
 		void addGame(Game &g) { games.emplace_back(g); }
@@ -18,9 +20,7 @@ namespace Domain
 
 		const std::vector<Game> &getGames() const { return games; }
 
-		void displayGamesOnConsole();
-
-		Game& searchGame(const std::string& id);
+		std::pair<Domain::Game,bool> searchGame(const std::string& id);
 
 		std::vector<Game> searchGamebyName(const std::string& name);
 
@@ -29,6 +29,5 @@ namespace Domain
 
 	private:
 		std::vector<Game> games;
-
 	};
 }

@@ -22,13 +22,11 @@ namespace App
         void addGame(const std::string filePath, const std::string gameName,
             const std::string category);
         void removeGame(const std::string gameID);
-        void launchgame(/*parametre ? */);
-
-        void init();
-        void run();
+        Domain::Game getGameById(const std::string& gameId);
+        void launchgame(const std::string& gameId);
 
     private:
-
+        void init();
         std::string generateID();
 
     private:

@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <vector>
 #include "domain/game.hpp"
 
 namespace Services
@@ -8,6 +9,6 @@ namespace Services
     class GameLaunchService
     {
     public:
-        void launch(Domain::Game &game);
+        void launch(const std::vector<Domain::Game>& games, const std::string& gameId);
     };
 }
